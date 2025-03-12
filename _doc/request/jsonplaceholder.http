@@ -1,0 +1,10 @@
+
+GET https://jsonplaceholder.typicode.com/users
+
+### POST users
+POST https://jsonplaceholder.typicode.com/users
+Content-Type: application/json
+
+{
+    "localDatetime": "{{$localDatetime 'HH:mm:ss'}}"
+}
